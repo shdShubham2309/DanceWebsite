@@ -1,0 +1,22 @@
+doctype html 
+html 
+  head 
+    title Shubham Dance Acadmey
+    block scripts
+    block style
+           
+  body
+    nav#navbar
+        ul#navigate
+            div#logo
+                img(src="/static/logo.png")
+                |SDA
+            li #[a(href="/") Home] 
+            li #[a(href="/about") About] 
+            li #[a(href="/services") Services] 
+            li #[a(href="/class") Class Info] 
+            li #[a(href="/contact") Contact Us]
+    block content 
+    footer#footer 
+        | Copyright © 2022 ShubhamDanceAcadmey.com|All right reserved
+        
